@@ -569,7 +569,7 @@ server <- function(input, output, session) {
 }
 ```
 
-This generates the app shown in Figure \@ref(fig:sim) and reactive graph shown in Figure \@ref(fig:sim-react).
+This generates the app shown in Figure \@ref(fig:sim) --please update the fig -- and reactive graph shown in Figure \@ref(fig:sim-react).
 
 ```{r sim, echo = FALSE, out.width = "100%", fig.cap = "A simpler app that displays a histogram of random numbers drawn from two Poisson distributions." }
 app <- testApp(ui, server, deps = "ggplot2", histogram = histogram)
